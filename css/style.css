@@ -1,17 +1,42 @@
-.text-color {
-    color: rgb(216, 141, 0);
+body{
+    box-sizing: border-box;
+    background-color: rgb(48, 69, 91);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 
+a{
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(216, 141, 0);
+    padding: 50px;
+    margin-top: 150px;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 25px black;
+}
+.card:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 25px rgb(84, 76, 76);
 }
 
 .clock {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #date{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #myName{
+    color: rgb(133, 133, 197);
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
 }
